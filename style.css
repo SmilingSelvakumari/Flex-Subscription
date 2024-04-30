@@ -1,0 +1,132 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: "Roboto Slab", serif;
+    background-color: rgb(24, 23, 23);
+    
+}
+.nav-bar{
+    padding: 20px;
+    margin: 10px;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    gap: 30%;
+    justify-content: space-around;
+}
+
+.navbar__s2{
+    display: flex;
+    gap:20px;
+    
+}
+
+
+
+.subscription{
+    padding: 10px;
+    margin: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.subscription__title{
+    text-align: center;
+    color: bisque;
+}
+
+.subscription__s1,.subscription__s2,.subscription__s3{
+    background-color: black;
+    color: white;
+    border-radius: 30px;
+    border:solid black 2px;
+    width:250px;
+    height:350px;
+    padding: 20px;
+    margin: 10px;
+   
+    
+   
+    
+}
+.subscription__s1 li,.subscription__s2 li,.subscription__s3 li{
+
+
+    margin: 10px;
+}
+
+.subscription__button__1{
+    border-radius: 40px;
+    width: 250px;
+    height: 50px;
+    background-color: #CFF56A;
+    border: none;
+    margin: 10px;
+    align-items: center;
+    font-weight:900;
+}
+
+
+
+.subscription__button__2{
+    border-radius: 40px;
+    width: 250px;
+    height: 50px;
+    background-color: #FFD2D7;
+    border: none;
+    margin: 10px;
+    align-items: center;
+    font-weight:900;
+}
+
+
+.subscription__button__3{
+    border-radius: 40px;
+    width: 250px;
+    height: 50px;
+    background-color:#C4B1D4;
+    border: none;
+    margin: 10px;
+    align-items: center;
+    font-weight:900;
+}
+
+
+
+
+
+
+
+
+
+.sub__title__1,.sub__title__2,.sub__title__3{
+    border-bottom: solid rgb(181, 183, 174) 1px;
+    margin-bottom: 20px;
+    
+}
+.subscription__s1 .sub__title__1 ,.subscription__s2 .sub__title__2 ,.subscription__s3 .sub__title__3 {
+
+    padding-bottom: 30px;
+}
+.subscription__s1__title{
+    color: #CFF56A;
+    
+}
+
+.subscription__s2__title{
+    color: #FFD2D7;
+    
+}
+
+.subscription__s3__title{
+    color: #C4B1D4;
+    
+}
+
+.subscription__button__1:hover,.subscription__button__2:hover,.subscription__button__3:hover{
+    transform: scale(1.1);
+}
